@@ -1,0 +1,50 @@
+.bottom{
+    background: linear-gradient(to bottom left, #80d0c7 0%, #13547a 100%);
+    height: 60vh;
+    width: 100%; /* ie8 */
+    position: relative;
+}
+
+.foot-img{
+    
+    position: absolute;
+      top: 40%;
+      left: 5%;
+      width: 30%;
+      height: auto;
+}
+
+.foot-text{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: #464A5F;
+}
+
+.platform{
+    border-bottom: 2px solid #f86d70;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .bottom{
+        
+        height: 60vh;
+        width: 100%; /* ie8 */
+        
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .bottom{
+        
+        height: 50vh;
+        width: 100%; /* ie8 */
+        
+    }
+
+    .foot-text{
+        font-size: 12px !important;
+    }
+}

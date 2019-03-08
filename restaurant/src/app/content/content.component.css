@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  background-color: #353B3F;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden !important;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    margin: 12px;
+    margin-left: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .container{
+    
+    grid-template-columns: 33% 33% ;
+    margin-left: 0px;
+    justify-content: center;
+}
+}
+
+@media only screen and (max-width:576px) {
+  .container{
+    
+    grid-template-columns: 33% ;
+    margin-left: 0px;
+    margin-left: -80px;
+}
+}
+
+.search{
+  text-align: center;
+  color: #464A5F;
+}
+
+.search input{
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #464A5F;
+  box-shadow: none;
+  outline: none;
+  padding: 2px;
+  
+}
+
+.search-icon{
+  margin-left: 4px;
+  margin-right: 4px;
+  color:#464A5F; 
+}
+
+.card{
+    width: 200px;
+    height: 120px;
+  padding: 6px;
+    border-radius: 4px;
+    margin: 2px;
+    border: 1px solid #fef0f0;
+    
+}
+
+.card:hover{
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.main-image{
+    width: 80px;
+    height: auto;
+    padding: 4px;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.icon-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.first{
+width: 50%;
+}
+.second{
+    width: 50%;
+}
+.second-txt{
+    font-size: 10px !important;
+}
+
+.icons{
+  font-size: 6px; 
+  list-style-type:none;   
+}
+
+.review{
+  padding:4px;
+  color: #464A5F;
+}
+
+.r-span{
+  background: #f86d70;
+  font-size: 7px;
+  border-radius: 20px;
+  border-bottom: 1px solid #464A5F;
+  padding: 2px 4px 2px 4px;
+  color: white;
+}
+
+.fa-cutlery{
+  margin: 0px 5px 0px 5px;
+  color: #f86d70;
+}
+
+.fa-globe{
+  margin: 0px 5px 0px 5px;
+  color: #f86d70;
+}
+
+.rating{
+  padding:4px;
+  color: #464A5F;
+}
+
+.ra-span{
+  background: #fada5e;
+  font-size: 7px;
+  border-radius: 20px;
+  border-bottom: 1px solid #f86d70;
+  padding: 2px 4px 2px 4px;
+}
+
+.rank{
+  background:  #80d0c7;
+  text-align: center;
+  margin-top: 4px;
+  padding: 2px 0 2px 0;
+  margin-bottom: 4px;
+}
+
+.pagination{
+  text-align: center;
+}
